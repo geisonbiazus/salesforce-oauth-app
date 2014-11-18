@@ -1,0 +1,9 @@
+development:
+  client_key: "3MVG9xOCXq4ID1uH4x31wtsPMfSKiIXcfKO4fVcPcGAnxoXSuMgrTWS_7QM49IVil_.w5gS.1ATZzgaHF20T."
+  client_secret: "130550210458731908"
+test:
+  client_key: "3MVG9xOCXq4ID1uH4x31wtsPMfSKiIXcfKO4fVcPcGAnxoXSuMgrTWS_7QM49IVil_.w5gS.1ATZzgaHF20T."
+  client_secret: "130550210458731908"
+production:
+  client_key: "3MVG9xOCXq4ID1uH4x31wtsPMfSKiIXcfKO4fVcPcGAnxoXSuMgrTWS_7QM49IVil_.w5gS.1ATZzgaHF20T."
+  client_secret: "130550210458731908"
