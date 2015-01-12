@@ -1,2 +1,14 @@
-<h1>Contacts#index</h1>
-<p>Find me in app/views/contacts/index.html.erb</p>
+<h1>Contacts</h1>
+
+<table class="table table-striped">
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+  </tr>
+  <% @contacts.each do |contact| %>
+    <tr>
+      <td><%= contact.Id %></td>
+      <td><%= contact.Name %></td>
+    </tr>
+  <% end %>
+</table>

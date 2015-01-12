@@ -4,7 +4,7 @@ class ContactsController < ApplicationController
   before_action :initialize_client
 
   def index
-
+    @contacts = @client.query("select Id, Name from Contact")
   end
 
   private
