@@ -7,4 +7,9 @@ class SalesforceController < ApplicationController
     session['instance_url'] = credentials["instance_url"]
     redirect_to contacts_path
   end
+
+  def failure
+    flash[:error] = 'Authorization failure'
+    redirect_to root_path
+  end
 end
