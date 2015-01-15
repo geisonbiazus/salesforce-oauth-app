@@ -6,4 +6,5 @@ test:
   <<: *default
 
 production:
-  <<: *default
+  client_key: "3MVG9xOCXq4ID1uH4x31wtsPMfRGqOQFvzMCjQq5BvFRyeNoxmJOLCDpFCxLTldpfHxqy5csWk9fYZTKiwzBs"
+  client_secret: "2868984837442939238"
