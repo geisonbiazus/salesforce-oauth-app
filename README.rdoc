@@ -1,3 +1,3 @@
 == README
 
-Sample app demonstrating the SalesForce OAuth using the `omniauth-salesforce` gem
+Sample app demonstrating the SalesForce OAuth using the "omniauth-salesforce" gem
